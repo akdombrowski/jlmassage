@@ -7,14 +7,17 @@ require('bootstrap');
 class App extends Component {
   render() {
     return (
-      <div class="main-div">
-
+      <div class="container-fluid">
         <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
           <h5 class="my-0 mr-md-auto font-weight-normal">Company name</h5>
           <nav class="my-2 my-md-0 mr-md-3">
-            <a class="p-2 text-dark" href="#">Features</a>
+            <a class="p-2 text-dark" href="#">
+            Features
+            </a>
             <a class="p-2 text-dark" href="#">Enterprise</a>
+
             <a class="p-2 text-dark" href="#">Support</a>
+
             <a class="p-2 text-dark" href="#">Pricing</a>
           </nav>
           <a class="btn btn-outline-primary" href="#">Sign up</a>
@@ -25,30 +28,33 @@ class App extends Component {
           <p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
         </div>
 
-        <div class="container-fluid">
-          <div class="row">
-            <div class="column">
-              <p>
-                What is a triggerpoint?
-                Commonly referred to as a "knot",
-                triggerpoints are small contractions
-                within the muscle fibers that cause
-                tenderness and chronic discomfort.
-                They usually appear in the neck,
-                shoulders, and back due to occupational/physical
-                stress on the body or mental/emotional
-                stress. Releasing these points of muscular
-                tension can lead to the elimination of padding
-                and helps to maintain a healthy and
-                comfortable lifestyle.
-            </p>
-              <div class="img-fluid max-width-10">
-                <img src={logo} class="max-width-10" alt="logo" />
+        <div class="container mh-50 mw-50">
+          <div class="card-deck mb-3 text-center">
+            <div class="card mb-4 shadow-sm">
+              <img src={logo} class="car-img-top logo-img img-fluid max-width-10" alt="logo" />
+              <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Mine</h4>
+              </div>
+              <div class="card-body">
+                <p1 class="card-title triggerpoint-title">What is a triggerpoint?
+                 <small class="text-muted">
+                    Commonly referred to as a "knot",
+                         triggerpoints are small contractions
+                         within the muscle fibers that cause
+                         tenderness and chronic discomfort.
+                         They usually appear in the neck,
+                         shoulders, and back due to occupational/physical
+                         stress on the body or mental/emotional
+                         stress. Releasing these points of muscular
+                         tension can lead to the elimination of padding
+                         and helps to maintain a healthy and
+                         comfortable lifestyle.
+                    </small>
+                </p1>
+
+                <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
               </div>
             </div>
-          </div>
-
-          <div class="card-deck mb-3 text-center">
             <div class="card mb-4 shadow-sm">
               <div class="card-header">
                 <h4 class="my-0 font-weight-normal">Free</h4>
