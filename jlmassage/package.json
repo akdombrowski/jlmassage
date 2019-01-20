@@ -1,6 +1,6 @@
 {
   "name": "jlmassage",
-  "homepage" : "http://akdombrowski.github.io/jlmassage/public/index.html",
+  "homepage" : "http://akdombrowski.github.io/jlmassage/docs/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
