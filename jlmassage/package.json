@@ -1,10 +1,11 @@
 {
   "name": "jlmassage",
-  "homepage" : "http://akdombrowski.github.io/jlmassage",
+  "homepage": "http://akdombrowski.github.io/jlmassage",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.2.1",
+    "gh-pages": "^2.0.1",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.6",
     "react": "^16.7.0",
@@ -17,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "jlmassage -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
