@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/jlmassages/precache-manifest.005b8c3b38694c304fe5eddb1421d23d.js"
+  "/jlmassages/precache-manifest.7329785b6164fee1bb2ee18554762155.js"
 );
 
 workbox.clientsClaim();
